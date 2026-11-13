@@ -1,0 +1,13 @@
+# 本地构建产物
+*.log
+*.tmp
+node_modules/
+*.zip
+
+# 演示截图（按需再生成）
+docs/*.png
+!docs/demo-main.png
+
+# Windows
+Thumbs.db
+desktop.ini

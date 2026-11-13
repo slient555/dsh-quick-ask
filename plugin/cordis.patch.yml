@@ -1,0 +1,5 @@
+# 快速问答（quick-ask）的 profile 补丁：插入一行宿主插件，
+# 浏览器半侧由 package.json 的 dsh.client 声明自动加载。
+- insert:
+    - id: quick-ask
+      name: dsh-quick-ask
