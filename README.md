@@ -8,6 +8,14 @@ Ctrl+Alt+T   整页翻译（左原文 / 右译文）
 Ctrl+Alt+R   通话听写（实验，默认麦克风）
 ```
 
+## 长什么样
+
+![主窗口](docs/screenshot-main.png)
+
+翻译页：
+
+![翻译页](docs/screenshot-translate.png)
+
 ## 它由两部分组成
 
 | 目录 | 是什么 | 怎么装 |
