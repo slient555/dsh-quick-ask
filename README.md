@@ -1,4 +1,4 @@
-# dsh-quick-ask
+﻿# dsh-quick-ask
 
 给 [DeepSeek Harness](https://github.com/deepseek-ai)（DSH）用的**截图识题 / 翻译 / 讲解**小工具。Windows 桌面悬浮窗，按一个键框选题目，自动 OCR，直接把答案打在小窗里。
 
@@ -9,6 +9,8 @@ Ctrl+Alt+R   通话听写（实验，默认麦克风）
 ```
 
 ## 长什么样
+
+![演示](docs/demo.gif)
 
 ![主窗口](docs/screenshot-main.png)
 
@@ -83,3 +85,4 @@ node plugin\test\client-load.mjs                                                
 ## License
 
 MIT。仓库里不带任何第三方插画素材，默认背景是脚本生成的纯色顶栏。
+
