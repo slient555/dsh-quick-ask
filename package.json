@@ -1,5 +1,5 @@
 {
-  "name": "dsh-quick-ask",
+  "name": "@slient555/dsh-quick-ask",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -20,7 +20,9 @@
     "README.md"
   ],
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web",
       "immediately": true

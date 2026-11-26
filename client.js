@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: 'dsh-quick-ask',
+  id: '@slient555/dsh-quick-ask',
   factory(require) {
     const React = require('react')
     const h = React.createElement

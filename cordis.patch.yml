@@ -2,4 +2,4 @@
 # 浏览器半侧由 package.json 的 dsh.client 声明自动加载。
 - insert:
     - id: quick-ask
-      name: dsh-quick-ask
+      name: @slient555/dsh-quick-ask
