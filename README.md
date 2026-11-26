@@ -75,14 +75,14 @@ OCR 只认字，认不出图形关系（几何图、坐标系、电路图都不�
 
 | 目录 | 是什么 | 怎么装 |
 |---|---|---|
-| `plugin/` | DSH 插件，提供 `/dsh-quick-ask/ask` 接口，把问题转给当前默认模型 | 通过 DSH 插件管理器安装 |
+| 仓库根 | DSH 插件，提供 `/dsh-quick-ask/ask` 接口，把问题转给当前默认模型 | `dsh plugin add github:slient555/dsh-quick-ask` |
 | `overlay/` | Windows 小窗：热键、框选、OCR、翻译页 | `install.ps1` 一键装 |
 
 **为什么必须拆开**：DSH 插件运行在网页端，只能改界面，开不了系统级悬浮窗、也截不了屏。所以插件负责「模型入口」，小窗负责「系统交互」，两者通过本机回环 HTTP 通信（端口自动发现）。
 
 ## 安装
 
-1. 装插件：在 DSH 里用插件管理器安装本仓库的 `plugin/` 目录（或 `plugin_manager install_bundle`）。
+1. 装插件：`dsh plugin --profile <profile> add github:slient555/dsh-quick-ask`，或在 DSH 插件页添加 `github:slient555/dsh-quick-ask`。
 2. 装小窗：右键 `install.ps1` → 用 PowerShell 运行。
 
 安装脚本会：
@@ -114,7 +114,7 @@ OCR 只认字，认不出图形关系（几何图、坐标系、电路图都不�
 
 - Windows 10/11
 - 系统自带 OCR 语言包（简中系统默认有 `zh-Hans-CN`）
-- DSH 正在运行，且 `plugin/` 已安装并启用
+- DSH 正在运行，且 `` 已安装并启用
 - 可选：`@smalltailqwq/dsh-client-ui-skin-maid-atelier`（壁纸库存来源）——没有就退回内置背景
 
 ## 开发
